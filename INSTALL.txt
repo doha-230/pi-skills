@@ -30,6 +30,6 @@ ponytail 스킬·Pi 확장은 dist/ponytail-pi-offline-4.10.3.zip 에 있습니�
 Windows·Linux 공용이며 별도 Python·npm 패키지 설치 없이 Pi에서 사용합니다.
 설치 방법은 ponytail/INSTALL.md 를 참고합니다.
 
-matt-pocock-skills 스킬 27개는 dist/matt-pocock-skills-pi-offline-1.2.3.zip 에 있습니다.
+matt-pocock-skills 스킬 17개는 dist/matt-pocock-skills-pi-offline-1.2.3.zip 에 있습니다.
 Pi의 스킬 폴더에 바로 압축을 풀고 /reload를 실행합니다.
-외부 서비스가 필요한 스킬은 matt-pocock-skills/INSTALL.md 의 범위를 참고합니다.
+제외한 외부 연동 스킬 목록은 matt-pocock-skills/INSTALL.md 를 참고합니다.
