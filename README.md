@@ -9,6 +9,7 @@
 | [humanize-korean](humanize-korean/SKILL.md) | 한국어 AI 초안의 번역투와 기계적인 표현을 진단하고 윤문 | [doha-230/im-not-ai](https://github.com/doha-230/im-not-ai) |
 | [kordoc](kordoc/SKILL.md) | 폐쇄망 문서 변환·HWPX 작성용 Pi 스킬 | [chrisryugj/kordoc](https://github.com/chrisryugj/kordoc) |
 | [ponytail](ponytail/skills/ponytail/SKILL.md) | 코딩 작업에서 불필요한 구현을 줄이는 Pi 확장과 6개 스킬 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
+| [matt-pocock-skills](matt-pocock-skills/INSTALL.md) | 설계·구현·검토·생산성 워크플로 스킬 27개 | [mattpocock/skills](https://github.com/mattpocock/skills) |
 
 `humanize-korean`은 원본 저장소의 `2024ce14e4e025e53d991f296e1d35f48e328b38` 커밋에서 가져왔습니다. 스킬, 스크립트, 참고 문서와 MIT 라이선스를 함께 보관합니다. 설치 방법은 [INSTALL.txt](INSTALL.txt)를 참고하세요.
 
@@ -17,3 +18,5 @@
 `kordoc`은 [Windows·Linux x64 공용 오프라인 ZIP](dist/kordoc-pi-offline-4.18.8-win-linux-x64.zip)으로 설치합니다. Python 3.12 실행기가 운영체제에 맞는 동봉 Node.js를 호출합니다. 설치 방법과 지원 범위는 [kordoc/INSTALL.md](kordoc/INSTALL.md)에 있습니다.
 
 `ponytail`은 [Windows·Linux 공용 오프라인 ZIP](dist/ponytail-pi-offline-4.10.3.zip)으로 설치합니다. Pi 전용 확장과 6개 스킬이 들어 있으며 추가 패키지 설치가 필요하지 않습니다. [설치 안내](ponytail/INSTALL.md)를 참고하세요.
+
+`matt-pocock-skills`는 [Windows·Linux 공용 오프라인 ZIP](dist/matt-pocock-skills-pi-offline-1.2.3.zip)을 Pi의 스킬 폴더에 풀면 됩니다. 일부 스킬의 외부 서비스·서브에이전트 요구 사항은 [설치 안내](matt-pocock-skills/INSTALL.md)에 정리했습니다.
