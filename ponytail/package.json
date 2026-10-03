@@ -1,0 +1,10 @@
+{
+  "name": "ponytail-pi-offline",
+  "version": "4.10.3",
+  "private": true,
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./pi-extension/index.js"],
+    "skills": ["./skills"]
+  }
+}

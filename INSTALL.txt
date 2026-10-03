@@ -1,0 +1,31 @@
+Pi 코딩 에이전트용 스킬 설치
+
+이 저장소를 폐쇄망 PC로 옮긴 뒤 humanize-korean 폴더 전체를 복사합니다.
+요구 사항: Pi 코딩 에이전트, Python 3.12, Pi에 설정된 폐쇄망 LLM.
+스킬 파일과 Python 스크립트에는 인터넷 또는 pip 설치가 필요하지 않습니다.
+
+Windows PowerShell (저장소 루트에서 실행):
+  New-Item -ItemType Directory -Force "$HOME\.pi\agent\skills" | Out-Null
+  Copy-Item -Recurse -Force .\humanize-korean "$HOME\.pi\agent\skills\"
+
+프로젝트에만 설치하려면 대상 경로를 해당 프로젝트의 .pi\skills\ 로 바꿉니다.
+설치 후 <대상 경로>\humanize-korean\SKILL.md 파일이 있는지 확인합니다.
+Pi가 이미 실행 중이면 /reload를 실행하거나 다시 시작합니다.
+
+사용: /skill:humanize-korean <한국어 원문 파일 경로>
+     또는 "이 한국어 글의 AI 티를 자연스럽게 고쳐줘"라고 요청합니다.
+
+Python 실행 명령이 python이 아닌 환경에서는 py -3.12를 사용합니다.
+선택적 local_runner.py를 명시적으로 실행할 때만 지정된 서버로 HTTP 요청을 보냅니다.
+
+원본: https://github.com/doha-230/im-not-ai
+가져온 커밋: 2024ce14e4e025e53d991f296e1d35f48e328b38
+라이선스: MIT (humanize-korean/LICENSE)
+
+kordoc 스킬은 dist/kordoc-pi-offline-4.18.8-win-linux-x64.zip 에 있습니다.
+Windows·Linux x64용 실행 파일이 함께 들어 있으며 Python 3.12로 실행합니다.
+운영체제별 설치 방법과 지원 범위는 kordoc/INSTALL.md 를 참고합니다.
+
+ponytail 스킬·Pi 확장은 dist/ponytail-pi-offline-4.10.3.zip 에 있습니다.
+Windows·Linux 공용이며 별도 Python·npm 패키지 설치 없이 Pi에서 사용합니다.
+설치 방법은 ponytail/INSTALL.md 를 참고합니다.
